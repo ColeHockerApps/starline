@@ -5,7 +5,7 @@ workflows:
     max_build_duration: 120
 
     integrations:
-      app_store_connect: "Hossein Fazal"
+      app_store_connect: "Hossien Fazal"
    
     environment:  
       xcode: latest
