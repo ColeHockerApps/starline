@@ -5,17 +5,17 @@ workflows:
     max_build_duration: 120
 
     integrations:
-      app_store_connect: "Hossien Fazal"
+      app_store_connect: "Mehmet Ada"
    
     environment:  
       xcode: latest
       ios_signing:   
         distribution_type: app_store
-        bundle_identifier: com.fazalhos.starline
+        bundle_identifier: com.adameh.starjellic
       vars:
         XCODE_PROJECT: "starline.xcodeproj"
         XCODE_SCHEME: "starline"   # fixed quotes
-        APP_STORE_APPLE_ID: 6758347743
+        APP_STORE_APPLE_ID: 6760458698
  
     cache:
       cache_paths:
