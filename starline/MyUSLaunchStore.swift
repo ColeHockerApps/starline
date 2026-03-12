@@ -19,7 +19,7 @@ final class MyUSLaunchStore: ObservableObject {
            let v = URL(string: saved) {
             mainPoint = v
         } else {
-            mainPoint = URL(string: "https://hossienfazal.github.io/jellys/")!
+            mainPoint = URL(string: "https://mehmetada.github.io/starjellic/")!
             defaults.set(mainPoint.absoluteString, forKey: mainKey)
         }
     }
